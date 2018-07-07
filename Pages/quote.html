@@ -6,6 +6,26 @@
     <title>Quote</title>
 
     <link rel="stylesheet" type="text/css" href="../CSS/Quote.css">
+
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #footer {
+            position: fixed;
+            left: 0px;
+            bottom: 0px;
+            height: 70px;
+            width: 100%;
+            background: #e6caff;
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -16,15 +36,21 @@
     <a href="../Pages/quote.html">Quote</a> |
 </nav>
 
-    <!- Quote generator. -->
-    <h3> Baba says, </h3>
-    <div class="boxed" id="showQuote">
+<!- Quote generator. -->
+<h3> Baba says, </h3>
+<div class="boxed" id="showQuote">
     <!- Quote is shown here. -->
-    </div>
+</div>
 
-    <button onclick="newQuote()">Show Quote</button>
+<button onclick="newQuote()">Show Quote</button>
 
-    <script src="../JavaScript/quoteGenerator.js"></script>
+<script src="../JavaScript/quoteGenerator.js"></script>
+
+<div id="footer">
+    <p> Made With ♥ By <a href="http://dreamstar.pro" target="_blank"><span>Dream Star Pro</span></a></p>
+    <p> Open Source Project <a href="https://github.com/DreamStarPro/mWebsite"
+                               target="_blank"><span>click here</span></a></p>
+</div>
 
 </body>
 
