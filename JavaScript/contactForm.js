@@ -1,6 +1,3 @@
-import firebase from 'firebase/app';
-import 'firebase/database';
-
 // Initialize Firebase
 const config = {
     apiKey: "AIzaSyCZWJJmz2uRU0a1QZf3g9Bc1hdG-6a7scM",
@@ -12,11 +9,13 @@ const config = {
 };
 firebase.initializeApp(config);
 
+
 // Reference messages collection
 const messagesRef = firebase.database().ref('contactUS_messages');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
+
 
 // Submit form
 function submitForm(e) {
@@ -43,10 +42,12 @@ function submitForm(e) {
 
 }
 
+
 // Function to get get form values
 function getInputVal(id) {
     return document.getElementById(id).value;
 }
+
 
 // Save message to firebase
 function saveMessage(name, email, message) {
