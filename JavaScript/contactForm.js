@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/database';
 
 // Initialize Firebase
-var config = {
+const config = {
     apiKey: "AIzaSyCZWJJmz2uRU0a1QZf3g9Bc1hdG-6a7scM",
     authDomain: "mwebsite-dsp.firebaseapp.com",
     databaseURL: "https://mwebsite-dsp.firebaseio.com",
@@ -13,7 +13,7 @@ var config = {
 firebase.initializeApp(config);
 
 // Reference messages collection
-var messagesRef = firebase.database().ref('contactUS_messages');
+const messagesRef = firebase.database().ref('contactUS_messages');
 
 // Listen for form submit
 document.getElementById('contactForm').addEventListener('submit', submitForm);
@@ -23,9 +23,9 @@ function submitForm(e) {
     e.preventDefault();
 
     // Get values
-    var name = getInputVal('name');
-    var email = getInputVal('email');
-    var message = getInputVal('message');
+    const name = getInputVal('name');
+    const email = getInputVal('email');
+    const message = getInputVal('message');
 
     // Save message
     saveMessage(name, email, message);
@@ -50,7 +50,7 @@ function getInputVal(id) {
 
 // Save message to firebase
 function saveMessage(name, email, message) {
-    var newMessageRef = messagesRef.push();
+    const newMessageRef = messagesRef.push();
     newMessageRef.set({
         name: name,
         email: email,
