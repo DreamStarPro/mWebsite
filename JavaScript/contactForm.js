@@ -23,10 +23,6 @@ function saveMessage(name, email, message) {
     });
 }
 
-// Listen for form submit
-document.getElementById("contactForm").addEventListener("submit", submitForm);
-
-
 // Function to get get form values
 function getInputVal(id) {
     return document.getElementById(id).value;
@@ -56,3 +52,6 @@ function submitForm(e) {
     document.getElementById("contactForm").reset();
 
 }
+
+// Listen for form submit
+document.getElementById("contactForm").addEventListener("submit", submitForm);
