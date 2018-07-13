@@ -54,7 +54,7 @@ ul {
 /* FORM STYLES */
 .contact form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
 }
 
@@ -102,7 +102,7 @@ ul {
 @media (min-width: 700px) {
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr;
     }
 
     .wrapper > * {
