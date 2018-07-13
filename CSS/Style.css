@@ -54,7 +54,7 @@ ul {
 /* FORM STYLES */
 .contact form {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
@@ -89,20 +89,20 @@ ul {
     transition: background-color 2s ease-out;
 }
 
-.alert{
+.alert {
     text-align: center;
-    padding:10px;
-    background:#79c879;
-    color:#fff;
-    margin-bottom:10px;
-    display:none;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
 }
 
 /* LARGE SCREENS */
 @media (min-width: 700px) {
     .wrapper {
         display: grid;
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr 2fr;
     }
 
     .wrapper > * {

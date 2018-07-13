@@ -13,6 +13,25 @@ firebase.initializeApp(config);
 // Reference messages collection
 const messagesRef = firebase.database().ref("contactUS_messages");
 
+// Save message to firebase
+function saveMessage(name, email, message) {
+    const newMessageRef = messagesRef.push();
+    newMessageRef.set({
+        name,
+        email,
+        message
+    });
+}
+
+// Listen for form submit
+document.getElementById("contactForm").addEventListener("submit", submitForm);
+
+
+// Function to get get form values
+function getInputVal(id) {
+    return document.getElementById(id).value;
+}
+
 // Submit form
 function submitForm(e) {
     e.preventDefault();
@@ -36,24 +55,4 @@ function submitForm(e) {
     // Clear form
     document.getElementById("contactForm").reset();
 
-}
-
-// Listen for form submit
-document.getElementById("contactForm").addEventListener("submit", submitForm);
-
-
-// Function to get get form values
-function getInputVal(id) {
-    return document.getElementById(id).value;
-}
-
-
-// Save message to firebase
-function saveMessage(name, email, message) {
-    const newMessageRef = messagesRef.push();
-    newMessageRef.set({
-        name,
-        email,
-        message
-    });
 }
