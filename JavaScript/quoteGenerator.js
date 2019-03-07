@@ -8,7 +8,7 @@ const quotes = [
     'sick of it all....',
     'True love is no game of the faint-hearted and the weak. It is born of strength and understanding.',
     'The human form was never [formed] to beget children. This tendency among people to cohabit is nothing but ' +
-    'animal instinct inherited from all the previous lives of evolution from the stone to the human form.'
+    'animal instinct inherited from all the previous lives of evolution from the stone to the human form.',
 	' "I have come to sow the seed of love in your hearts"-Avatar Meher Baba.'
 ];
 
