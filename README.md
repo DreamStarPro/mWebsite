@@ -1,7 +1,7 @@
 # mWebsite
 A Website for Meher Baba.
 
-> Baba Call: Now the time has come for you to offer all your services in my mission of helping humanity tread the spiritual path and realize God.
+> Baba Call: Now the time has come for you to offer all your services in my mission of helping humanity </br> tread the spiritual path and realize God.
 
 __URL__: [avatarmeher.com](http://www.avatarmeher.com)
 
@@ -14,7 +14,7 @@ Please read [contributing](https://github.com/DreamStarPro/mWebsite/blob/master/
 
 ### Contributors Info. : 
 
-[ If someone wants to hire you with your awesome 🆒 contributions to this Open Source project,
+[ If someone wants to hire you with your awesome 🆒 contributions to this Open Source project, </br>
   they can reach you via the provided email address. 👨‍💻 ]
   
 
