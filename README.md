@@ -6,13 +6,13 @@ A Website for Meher Baba.
 __URL__: [avatarmeher.com](http://www.avatarmeher.com)
 
 
-###Contributing
+### Contributing
 
 If you've ever wanted to contribute to open source, and a great cause, now is your chance!
 
 Please read [contributing](https://github.com/DreamStarPro/mWebsite/blob/master/CONTRIBUTING.md) file for some important guidelines. 
 
-###Contributors Info. : 
+### Contributors Info. : 
 
 [ If someone wants to hire you with your awesome 🆒 contributions to this Open Source project,
   they can reach you via the provided email address. 👨‍💻 ]
