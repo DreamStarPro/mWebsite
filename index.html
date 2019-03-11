@@ -8,6 +8,11 @@
     <title>Meher Baba</title>
 
     <link rel="stylesheet" type="text/css" href="../CSS/Quote.css">
+    <link rel="stylesheet" href="http://www.avatarmeher.com/Content/Video/meher_baba.mp4">
+	
+<style>
+    *{box-sizing: border-box;}
+
 
     <style type="text/css">
         html,
@@ -16,8 +21,44 @@
             padding: 0;
             height: 100%;
         }
+    .topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
 
-        #footer {
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 15px 13px;
+  margin-top: 8px;
+  margin-right: 16px;
+/*  background: #ddd;*/
+  font-size: 17px;
+  border: 2px solid #c9e6ff;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+  .topnav input[type=text] {
+    border: 2px solid #c9e6ff;  
+  }
+
+        #footer { 
             position: fixed;
             left: 0px;
             bottom: 0px;
@@ -53,6 +94,15 @@
 </head>
 
 <body>
+    <div class="topnav">
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
 
 <nav>
     <a href="index.html">Home</a> |
@@ -60,6 +110,8 @@
     <a href="Pages/image.html">Image Gallery</a> |
     <a href="Pages/quote.html">Quote</a> |
     <a href="Pages/contact.html">Contact Us</a>
+
+	
 </nav>
 
 <h3> Welcome to our website! </h3>
