@@ -3,7 +3,7 @@ A Website for Meher Baba.
 
 > Baba Call: Now the time has come for you to offer all your services in my mission of helping humanity </br> tread the spiritual path and realize God.
 
-__URL__: [avatarmeher.com](http://www.avatarmeher.com)
+__URL__: [avatarmeher.com](http://meherbaba.dreamstar.pro/)
 
 
 ### Contributing
@@ -20,8 +20,8 @@ Please read [contributing](https://github.com/DreamStarPro/mWebsite/blob/master/
 
 |   | Name | Email Address |
 | ------------- | ------------- | ------------- |
-| <a href="https://github.com/vipasyan"><img src="https://avatars1.githubusercontent.com/u/34027054?s=460&v=4" title="vipasyan" width="50" height="50"></a> | Vipasyan | vipasyan@avatarmeher.com |
-| <a href="https://github.com/mvdheram"><img src="https://avatars0.githubusercontent.com/u/33415402?s=460&v=4" title="vivek" width="50" height="50"></a> | Vivek | vivek@avatarmeher.com |
+| <a href="https://github.com/vipasyan"><img src="https://avatars1.githubusercontent.com/u/34027054?s=460&v=4" title="vipasyan" width="50" height="50"></a> | Vipasyan | - |
+| <a href="https://github.com/mvdheram"><img src="https://avatars0.githubusercontent.com/u/33415402?s=460&v=4" title="vivek" width="50" height="50"></a> | Vivek | - |
 | <a href="https://github.com/gsvarma"><img src="https://avatars2.githubusercontent.com/u/17321286?s=460&v=4" title="varma" width="50" height="50"></a> | Varma | varma@dreamstar.pro |
 
 
