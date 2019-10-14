@@ -3,7 +3,7 @@ A Website for Meher Baba.
 
 > Baba Call: Now the time has come for you to offer all your services in my mission of helping humanity </br> tread the spiritual path and realize God.
 
-__URL__: [avatarmeher.com](http://meherbaba.dreamstar.pro/)
+__URL__: [meherbaba.dreamstar.pro](http://meherbaba.dreamstar.pro/)
 
 
 ### Contributing
