@@ -18,8 +18,8 @@ Please read [contributing](https://github.com/DreamStarPro/mWebsite/blob/master/
   they can reach you via the provided email address. 👨‍💻 ]
   
 
-|   | Name | Email Address |
-| ------------- | ------------- | ------------- |
+|   | Name | 
+| ------------- | ------------- |
 | <a href="https://github.com/vipasyan"><img src="https://avatars1.githubusercontent.com/u/34027054?s=460&v=4" title="vipasyan" width="50" height="50"></a> | Vipasyan 
 | <a href="https://github.com/mvdheram"><img src="https://avatars0.githubusercontent.com/u/33415402?s=460&v=4" title="vivek" width="50" height="50"></a> | Vivek |
 | <a href="https://github.com/gsvarma"><img src="https://avatars2.githubusercontent.com/u/17321286?s=460&v=4" title="varma" width="50" height="50"></a> | Varma |
