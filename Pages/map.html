@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>Quote</title>
 
-    <link rel="stylesheet" type="text/css" href="../CSS/Quote.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+            integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+            crossorigin=""></script>
+    <style>
+
+        #mymap {
+            height: 240px;
+            width: 1040px;
+        }
+
+    </style>
 
     <style type="text/css">
         html,
@@ -47,6 +59,7 @@
 
     </style>
 
+
 </head>
 
 <body>
@@ -60,15 +73,27 @@
     <a href="../Pages/contact.html">Contact Us</a>
 </nav>
 
-<!- Quote generator. -->
-<h3> Baba says, </h3>
-<div class="boxed" id="showQuote">
-    <!- Quote is shown here. -->
-</div>
+<br> <br>
+<div> Here is the map for Jubilee Hills Center.</div>
+<br> <br>
 
-<button onclick="newQuote()">Show Quote</button>
+<div id="mymap"></div>
 
-<script src="../JavaScript/quoteGenerator.js"></script>
+<script>
+
+    // Hyderabad Jubilee Hills Center
+    const hydLat = 17.468069;
+    const hydLon = 78.543648;
+    var mymap = L.map('mymap').setView([hydLat, hydLon], 14);
+    let marker = L.marker([hydLat, hydLon]).addTo(mymap);
+    const attribution =
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+    const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+    const tiles = L.tileLayer(tileUrl, {attribution});
+    tiles.addTo(mymap);
+
+</script>
 
 <div id="footer">
 
@@ -78,5 +103,4 @@
 </div>
 
 </body>
-
 </html>
